@@ -1,0 +1,48 @@
+@model CrudEstudiantes.Models.Student
+
+@{
+    ViewData["Title"] = "Crear Estudiante";
+}
+
+<h1 id="create-page-title">Crear Estudiante</h1>
+
+<form asp-action="Create" method="post" id="create-student-form">
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">Nombre</label>
+        <input asp-for="FirstName" id="first-name" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger" id="first-name-error"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">Apellido</label>
+        <input asp-for="LastName" id="last-name" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger" id="last-name-error"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Age" class="form-label">Edad</label>
+        <input asp-for="Age" id="age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger" id="age-error"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" id="email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger" id="email-error"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Major" class="form-label">Carrera</label>
+        <input asp-for="Major" id="major" class="form-control" />
+        <span asp-validation-for="Major" class="text-danger" id="major-error"></span>
+    </div>
+
+    <button type="submit" id="save-student-button" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" id="back-to-list-button" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

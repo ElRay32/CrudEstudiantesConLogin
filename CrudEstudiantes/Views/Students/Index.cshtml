@@ -1,0 +1,49 @@
+@model IEnumerable<CrudEstudiantes.Models.Student>
+
+@{
+    ViewData["Title"] = "Lista de Estudiantes";
+}
+
+<h1 id="students-page-title">Lista de Estudiantes</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" id="success-message">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<p>
+    <a asp-action="Create" id="create-student-button" class="btn btn-primary">Crear Nuevo Estudiante</a>
+</p>
+
+<table class="table table-bordered table-striped" id="students-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Email</th>
+            <th>Carrera</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr id="student-row-@student.Id">
+                <td class="student-id">@student.Id</td>
+                <td class="student-firstname">@student.FirstName</td>
+                <td class="student-lastname">@student.LastName</td>
+                <td class="student-age">@student.Age</td>
+                <td class="student-email">@student.Email</td>
+                <td class="student-major">@student.Major</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@student.Id" id="edit-student-@student.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@student.Id" id="delete-student-@student.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
