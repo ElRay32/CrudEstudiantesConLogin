@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1ad8322f-b68b-44ad-96d2-7c30455b4e19" name="raymelg@TEC-004-LEB 2026-04-03 18:51:52" runUser="LEB\raymelg" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-04-03T18:51:52.2139546-04:00" queuing="2026-04-03T18:51:52.2139551-04:00" start="2026-04-03T18:51:38.6380242-04:00" finish="2026-04-03T18:52:43.9865728-04:00" />
+  <TestSettings name="default" id="e5a721dd-61d0-4165-b848-4e3ffe5efe1b">
+    <Deployment runDeploymentRoot="raymelg_TEC-004-LEB_2026-04-03_18_51_52" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="709c2476-63ff-457f-8a73-62f8da67b958" testId="53bedc47-e6fe-5f23-d860-7e8156b025b0" testName="Login_With_Invalid_Credentials_Should_Show_Error_Message" computerName="TEC-004-LEB" duration="00:00:03.8087910" startTime="2026-04-03T18:51:52.1239746-04:00" endTime="2026-04-03T18:51:55.9327651-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="709c2476-63ff-457f-8a73-62f8da67b958" />
+    <UnitTestResult executionId="2d52cc96-89a1-4995-95c9-eb73dab61664" testId="e7f49b0a-ad16-b868-47c3-3d931992311e" testName="Login_With_Valid_Credentials_Should_Redirect_To_Students_Page" computerName="TEC-004-LEB" duration="00:00:03.6465410" startTime="2026-04-03T18:51:55.9329351-04:00" endTime="2026-04-03T18:51:59.5794754-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d52cc96-89a1-4995-95c9-eb73dab61664" />
+    <UnitTestResult executionId="58365248-e070-4563-aa26-e48e049837fd" testId="38f2b5af-efce-f6c4-2eac-9d22176178a1" testName="Student_List_Should_Display_Created_Student" computerName="TEC-004-LEB" duration="00:00:04.8926900" startTime="2026-04-03T18:52:38.9615364-04:00" endTime="2026-04-03T18:52:43.8542252-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58365248-e070-4563-aa26-e48e049837fd" />
+    <UnitTestResult executionId="53cdfc91-1248-4934-95ba-9df5d71167f7" testId="aa9e45ce-1440-d06e-0895-4084c69cc74e" testName="Edit_Student_With_Valid_Data_Should_Update_Successfully" computerName="TEC-004-LEB" duration="00:00:06.8865020" startTime="2026-04-03T18:52:32.0749640-04:00" endTime="2026-04-03T18:52:38.9614648-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53cdfc91-1248-4934-95ba-9df5d71167f7" />
+    <UnitTestResult executionId="6649e92a-c526-4724-b0f0-4e77ea3eac40" testId="3fcece4a-4615-28e9-b2f9-04a26a9f682f" testName="Login_With_Empty_Fields_Should_Stay_On_Login_Page" computerName="TEC-004-LEB" duration="00:00:09.5829340" startTime="2026-04-03T18:51:42.5353876-04:00" endTime="2026-04-03T18:51:52.1180469-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6649e92a-c526-4724-b0f0-4e77ea3eac40" />
+    <UnitTestResult executionId="6f5e660e-f85c-4e9c-8d5e-2affe1b925c8" testId="48779e9c-f82a-e39d-50db-e9809eec1aa3" testName="Delete_Student_Should_Remove_Student_From_List" computerName="TEC-004-LEB" duration="00:00:05.4224119" startTime="2026-04-03T18:52:20.1853839-04:00" endTime="2026-04-03T18:52:25.6077949-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f5e660e-f85c-4e9c-8d5e-2affe1b925c8" />
+    <UnitTestResult executionId="47d24fc7-a3b2-4c0a-b914-bd8263456870" testId="80f4c1c7-ded9-b41b-de52-e34b9043fa0e" testName="Edit_Student_With_Invalid_Email_Should_Show_Validation_Error" computerName="TEC-004-LEB" duration="00:00:06.4667920" startTime="2026-04-03T18:52:25.6078838-04:00" endTime="2026-04-03T18:52:32.0746729-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47d24fc7-a3b2-4c0a-b914-bd8263456870" />
+    <UnitTestResult executionId="226daab8-c04b-4f0f-a0af-3f0abb6835ed" testId="da02d6bb-a29e-4005-eb7b-439ed95c0c93" testName="Cancel_Delete_Should_Keep_Student_In_List" computerName="TEC-004-LEB" duration="00:00:05.7294150" startTime="2026-04-03T18:51:59.5869853-04:00" endTime="2026-04-03T18:52:05.3163986-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="226daab8-c04b-4f0f-a0af-3f0abb6835ed" />
+    <UnitTestResult executionId="6556daa4-df3a-44da-922b-e461f5f02704" testId="ce38f742-2e39-3348-15e5-389b7dbd605a" testName="Create_Student_With_Empty_FirstName_Should_Show_Validation_Error" computerName="TEC-004-LEB" duration="00:00:04.8361940" startTime="2026-04-03T18:52:05.3165042-04:00" endTime="2026-04-03T18:52:10.1526954-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6556daa4-df3a-44da-922b-e461f5f02704" />
+    <UnitTestResult executionId="672b9462-cdf1-41b3-a8a7-4cf9ad582d99" testId="f9db4a9e-5606-53d0-982e-2fbc84f41ee5" testName="Create_Student_With_Valid_Data_Should_Save_Successfully" computerName="TEC-004-LEB" duration="00:00:04.9269900" startTime="2026-04-03T18:52:15.2581815-04:00" endTime="2026-04-03T18:52:20.1851683-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="672b9462-cdf1-41b3-a8a7-4cf9ad582d99" />
+    <UnitTestResult executionId="405c73b5-4f67-4925-b472-fb640712cfc5" testId="62b1d7d3-256d-b31a-a2fd-9cf69c8957b9" testName="Create_Student_With_Invalid_Age_Should_Show_Validation_Error" computerName="TEC-004-LEB" duration="00:00:05.1052860" startTime="2026-04-03T18:52:10.1528269-04:00" endTime="2026-04-03T18:52:15.2581127-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="405c73b5-4f67-4925-b472-fb640712cfc5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Create_Student_With_Empty_FirstName_Should_Show_Validation_Error" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="ce38f742-2e39-3348-15e5-389b7dbd605a">
+      <Execution id="6556daa4-df3a-44da-922b-e461f5f02704" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Create_Student_With_Empty_FirstName_Should_Show_Validation_Error" />
+    </UnitTest>
+    <UnitTest name="Edit_Student_With_Valid_Data_Should_Update_Successfully" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="aa9e45ce-1440-d06e-0895-4084c69cc74e">
+      <Execution id="53cdfc91-1248-4934-95ba-9df5d71167f7" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Edit_Student_With_Valid_Data_Should_Update_Successfully" />
+    </UnitTest>
+    <UnitTest name="Login_With_Invalid_Credentials_Should_Show_Error_Message" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="53bedc47-e6fe-5f23-d860-7e8156b025b0">
+      <Execution id="709c2476-63ff-457f-8a73-62f8da67b958" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.LoginTests" name="Login_With_Invalid_Credentials_Should_Show_Error_Message" />
+    </UnitTest>
+    <UnitTest name="Cancel_Delete_Should_Keep_Student_In_List" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="da02d6bb-a29e-4005-eb7b-439ed95c0c93">
+      <Execution id="226daab8-c04b-4f0f-a0af-3f0abb6835ed" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Cancel_Delete_Should_Keep_Student_In_List" />
+    </UnitTest>
+    <UnitTest name="Login_With_Valid_Credentials_Should_Redirect_To_Students_Page" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="e7f49b0a-ad16-b868-47c3-3d931992311e">
+      <Execution id="2d52cc96-89a1-4995-95c9-eb73dab61664" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.LoginTests" name="Login_With_Valid_Credentials_Should_Redirect_To_Students_Page" />
+    </UnitTest>
+    <UnitTest name="Login_With_Empty_Fields_Should_Stay_On_Login_Page" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="3fcece4a-4615-28e9-b2f9-04a26a9f682f">
+      <Execution id="6649e92a-c526-4724-b0f0-4e77ea3eac40" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.LoginTests" name="Login_With_Empty_Fields_Should_Stay_On_Login_Page" />
+    </UnitTest>
+    <UnitTest name="Student_List_Should_Display_Created_Student" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="38f2b5af-efce-f6c4-2eac-9d22176178a1">
+      <Execution id="58365248-e070-4563-aa26-e48e049837fd" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Student_List_Should_Display_Created_Student" />
+    </UnitTest>
+    <UnitTest name="Create_Student_With_Valid_Data_Should_Save_Successfully" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="f9db4a9e-5606-53d0-982e-2fbc84f41ee5">
+      <Execution id="672b9462-cdf1-41b3-a8a7-4cf9ad582d99" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Create_Student_With_Valid_Data_Should_Save_Successfully" />
+    </UnitTest>
+    <UnitTest name="Edit_Student_With_Invalid_Email_Should_Show_Validation_Error" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="80f4c1c7-ded9-b41b-de52-e34b9043fa0e">
+      <Execution id="47d24fc7-a3b2-4c0a-b914-bd8263456870" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Edit_Student_With_Invalid_Email_Should_Show_Validation_Error" />
+    </UnitTest>
+    <UnitTest name="Delete_Student_Should_Remove_Student_From_List" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="48779e9c-f82a-e39d-50db-e9809eec1aa3">
+      <Execution id="6f5e660e-f85c-4e9c-8d5e-2affe1b925c8" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Delete_Student_Should_Remove_Student_From_List" />
+    </UnitTest>
+    <UnitTest name="Create_Student_With_Invalid_Age_Should_Show_Validation_Error" storage="c:\dev\crudestudiantesconlogin\crudestudiantes.seleniumtests\bin\debug\net10.0\crudestudiantes.seleniumtests.dll" id="62b1d7d3-256d-b31a-a2fd-9cf69c8957b9">
+      <Execution id="405c73b5-4f67-4925-b472-fb640712cfc5" />
+      <TestMethod codeBase="C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CrudEstudiantes.SeleniumTests.Tests.StudentTests" name="Create_Student_With_Invalid_Age_Should_Show_Validation_Error" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="53bedc47-e6fe-5f23-d860-7e8156b025b0" executionId="709c2476-63ff-457f-8a73-62f8da67b958" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7f49b0a-ad16-b868-47c3-3d931992311e" executionId="2d52cc96-89a1-4995-95c9-eb73dab61664" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38f2b5af-efce-f6c4-2eac-9d22176178a1" executionId="58365248-e070-4563-aa26-e48e049837fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa9e45ce-1440-d06e-0895-4084c69cc74e" executionId="53cdfc91-1248-4934-95ba-9df5d71167f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fcece4a-4615-28e9-b2f9-04a26a9f682f" executionId="6649e92a-c526-4724-b0f0-4e77ea3eac40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48779e9c-f82a-e39d-50db-e9809eec1aa3" executionId="6f5e660e-f85c-4e9c-8d5e-2affe1b925c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80f4c1c7-ded9-b41b-de52-e34b9043fa0e" executionId="47d24fc7-a3b2-4c0a-b914-bd8263456870" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da02d6bb-a29e-4005-eb7b-439ed95c0c93" executionId="226daab8-c04b-4f0f-a0af-3f0abb6835ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce38f742-2e39-3348-15e5-389b7dbd605a" executionId="6556daa4-df3a-44da-922b-e461f5f02704" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9db4a9e-5606-53d0-982e-2fbc84f41ee5" executionId="672b9462-cdf1-41b3-a8a7-4cf9ad582d99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62b1d7d3-256d-b31a-a2fd-9cf69c8957b9" executionId="405c73b5-4f67-4925-b472-fb640712cfc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 1.0.0.0: Test execution started&#xD;
+Running all tests in C:\Dev\CrudEstudiantesConLogin\CrudEstudiantes.SeleniumTests\bin\Debug\net10.0\CrudEstudiantes.SeleniumTests.dll&#xD;
+   NUnit3TestExecutor discovered 11 of 11 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
